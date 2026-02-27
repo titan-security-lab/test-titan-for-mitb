@@ -1,6 +1,0 @@
-{
-  "name": "TITAN Security Scan",
-  "description": "Automatically scan code for vulnerabilities using TITAN",
-  "iconName": "shield",
-  "categories": ["Security", "Code quality"]
-}
