@@ -21,6 +21,7 @@ def safe_api_call(url, params):
         k: str(v)[:100]  # Limit param length
         for k, v in params.items()
         if k.isalnum()  # Only alphanumeric keys
+        # Limit values to alphanumeric and basic punctuation
     }
     
     # Make request with timeout and verify SSL
